@@ -1,5 +1,5 @@
 function scuberGreetingForFeet(distance) {
-  console.log("== scuberGreetingForFeet ==");
+  // console.log("== scuberGreetingForFeet ==");
   if (distance <= 400) {
     result = "This one is on me!"
   } else if ((distance > 2000) && (distance <= 2500)) {
@@ -11,14 +11,14 @@ function scuberGreetingForFeet(distance) {
 }
 
 function ternaryCheckCity(city) {
-  console.log("== ternaryCheckCity ==");
+  // console.log("== ternaryCheckCity ==");
   city === "NYC"
     ? return result = "Ok, sounds good."
     : return result = "No go."
 }
 
 function switchOnCharmFromTip(tip) {
-  console.log("== switchOnCharmFromTip ==");
+  // console.log("== switchOnCharmFromTip ==");
   switch(tip) {
       case "generous":
           result = "Thank you so much."
