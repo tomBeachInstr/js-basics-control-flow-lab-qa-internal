@@ -29,3 +29,7 @@ function switchOnCharmFromTip(tip) {
           result = "Bye."
   }
 }
+
+scuberGreetingForFeet(200);
+ternaryCheckCity("NYC");
+switchOnCharmFromTip("generous");
