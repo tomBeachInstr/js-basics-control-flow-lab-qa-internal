@@ -1,11 +1,12 @@
 function scuberGreetingForFeet(distance) {
-  console.log("== scuberGreetingForFeet ==")
+  console.log("== scuberGreetingForFeet ==");
+  let result;
   if (distance <= 400) {
-    let result = "This one is on me!";
+    result = "This one is on me!";
   } else if ((distance > 2000) && (distance <= 2500)) {
-    let result = "I will gladly take your thirty bucks.";
+    result = "I will gladly take your thirty bucks.";
   } else if (distance > 2500) {
-    let result = "No can do.";
+    result = "No can do.";
   }
   return result;
 }
