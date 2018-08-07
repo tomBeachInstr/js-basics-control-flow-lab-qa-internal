@@ -1,11 +1,11 @@
 function scuberGreetingForFeet(distance) {
   console.log("== scuberGreetingForFeet ==")
   if (distance <= 400) {
-    result = "free sample"
+    result = "This one is on me!"
   } else if ((distance > 2000) && (distance <= 2500)) {
-    result = "charges 30 dollars"
+    result = "I will gladly take your thirty bucks."
   } else if (distance > 2500) {
-    result = "does not allow"
+    result = "No can do."
   }
 }
 
