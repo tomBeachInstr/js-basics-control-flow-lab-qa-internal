@@ -11,12 +11,12 @@ function scuberGreetingForFeet(distance) {
   return result;
 }
 
-function ternaryCheckCity(city) {
-  console.log("== ternaryCheckCity ==")
-  city === "NYC"
-    ? return "Ok, sounds good."
-    : return "No go."
-}
+// function ternaryCheckCity(city) {
+//   console.log("== ternaryCheckCity ==")
+//   city === "NYC"
+//     ? return "Ok, sounds good."
+//     : return "No go."
+// }
 
 function switchOnCharmFromTip(tip) {
   console.log("== switchOnCharmFromTip ==")
