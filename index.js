@@ -22,16 +22,18 @@ function ternaryCheckCity(city) {
 
 function switchOnCharmFromTip(tip) {
   console.log("== switchOnCharmFromTip ==")
+  let response;
   switch(tip) {
       case "generous":
-          result = "Thank you so much."
+          response = "Thank you so much."
           break;
       case !"generous":
-          result = "Thank you."
+          response = "Thank you."
           break;
       default:
-          result = "Bye."
+          response = "Bye."
   }
+  return response;
 }
 
 scuberGreetingForFeet(200);
