@@ -7,7 +7,7 @@ function scuberGreetingForFeet(distance) {
   } else if (distance > 2500) {
     result = "No can do."
   }
-  return result;
+  // return result;
 }
 
 function ternaryCheckCity(city) {
